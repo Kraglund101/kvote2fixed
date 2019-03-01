@@ -78,7 +78,47 @@
 	object-fit: cover;
 }
 .slider-item-1 {
-	background: url('slider-image/1.jpg');
+	background: url('slider-image/data-science.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 200px 0px;
+	text-align: center;
+}
+.slider-item-2 {
+	background: url('slider-image/2.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 200px 0px;
+	text-align: center;
+}
+.slider-item-3 {
+	background: url('slider-image/3.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 200px 0px;
+	text-align: center;
+}
+.slider-item-4 {
+	background: url('slider-image/4.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 200px 0px;
+	text-align: center;
+}
+.slider-item-5 {
+	background: url('slider-image/5.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 200px 0px;
+	text-align: center;
+}
+.slider-item-6 {
+	background: url('slider-image/6.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -88,7 +128,6 @@
 .container {
 	margin-left: 25%;
 
-
 }
 .move-left, .move-right {
 	opacity: .3;
@@ -96,19 +135,102 @@
 .move-left:hover,.move-right:hover {
 	opacity: 1;
 }
-.slider-item-1 h1 {
+.slider-item-1 h2, h1 {
 	max-width: 80%;
 	margin: 0 auto;
 	color: #fff;
 	font-size: 30px;
-	font-family: Open sans;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 2px 2px 8px #111;
 }
 .slider-item-1 p {
-	max-width: 70%;
+	max-width: 80%;
 	margin: 0 auto;
 	color: #fff;
 	font-size: 20px;
-	font-family: Open sans;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 2px 2px 8px #111;
+}
+.slider-item-2 h1 {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 30px;
+	font-family: Catamaran;
+}
+.slider-item-2 p {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 20px;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 4px 4px 15px #111;
+}
+.slider-item-3 h1 {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 30px;
+	font-family: Catamaran;
+}
+.slider-item-3 p {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 20px;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 4px 4px 15px #111;
 }
 
-
+.slider-item-4 h1 {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 30px;
+	font-family: Catamaran;
+}
+.slider-item-4 p {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 20px;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 4px 4px 15px #111;
+}
+.slider-item-5 h1 {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 30px;
+	font-family: Catamaran;
+}
+.slider-item-5 p {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 20px;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 4px 4px 15px #111;
+}
+.slider-item-6 h1 {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 30px;
+	font-family: Catamaran;
+}
+.slider-item-6 p {
+	max-width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 20px;
+	font-family: Catamaran;
+	text-align:left;
+	text-shadow: 4px 4px 15px #111;
+}
