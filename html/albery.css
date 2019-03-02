@@ -234,3 +234,61 @@
 	text-align:left;
 	text-shadow: 4px 4px 15px #111;
 }
+
+/* KONTAKT FORMULER */
+
+#kontakt{
+    background-image: url("../billeder/bagrund.jpg");
+    background-size: 100% 100%px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.contact-title{
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+.contact-title h2{
+    font-size: 32px;
+    line-height: 10px;
+    color: white;
+    font-family: Catamaran;
+}
+.contact-title h3{
+    font-size: 16px;
+    color: white;
+    font-family: Catamaran;
+}
+form{
+    margin-top: 50px;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height:45px;
+}
+
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
